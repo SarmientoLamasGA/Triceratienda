@@ -1,0 +1,6 @@
+User-agent: *
+Allow: 13 Clase\
+Disallow: 13 Clase\galeria\
+Disallow: 13 Clase\nosotros\
+Disallow: 13 Clase\productos\
+Disallow: 13 Clase\contacto\

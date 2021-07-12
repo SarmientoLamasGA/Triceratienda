@@ -1,0 +1,56 @@
+.index {
+  .principal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("/Multimedia/Emprendimiento/Principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .presentation {
+      color: white;
+      text-shadow: 0.45vh 0.45vh black;
+      font-weight: bold;
+      font-family: "Dancing Script", cursive;
+      font-size: 2.6rem;
+      font-weight: 800;
+      text-align: center;
+      text-transform: none;
+      letter-spacing: 5px;
+      margin: 2vh;
+      padding: 20% 0 20% 0;
+    }
+  }
+}
+.container-fluid {
+  padding: 0;
+  .carousel-item {
+    height: 100%;
+    .img {
+      height: 100%;
+    }
+  }
+}
+
+.info {
+  margin-top: 5%;
+  .info__pagos {
+    .info__metodos {
+      font-weight: 700;
+    }
+    .info__pagos-container {
+      background-color: white;
+      .info__pagos-img-container {
+        .info__pagos-img {
+          width: 250px;
+        }
+      }
+    }
+  }
+  .info__horarios {
+    .info__nuestros-horarios {
+      font-weight: 700;
+    }
+    .info__table {
+      background-color: peachpuff;
+      font-size: calc(1rem + 1vw);
+    }
+  }
+}

@@ -1,0 +1,50 @@
+/*format*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 55%;
+}
+
+/*body global*/
+body {
+  background-color: #fcf3cf;
+}
+.titles {
+  color: rgb(177, 34, 177);
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: calc(1.4rem + 1.5vw);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 2vh;
+  text-transform: uppercase;
+  text-shadow: whitesmoke;
+  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+}
+
+.subtitles {
+  color: rgb(177, 34, 177);
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: calc(1.54rem + 1.2vw);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 2vh;
+  text-shadow: whitesmoke;
+  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}

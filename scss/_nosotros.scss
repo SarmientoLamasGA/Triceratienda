@@ -1,0 +1,23 @@
+.nos {
+  .nos__top {
+    position: relative;
+    .nos__text {
+      position: relative;
+      .nos__titles {
+        font-size: 2rem;
+      }
+      .nos__info {
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        text-align: justify;
+      }
+    }
+    .nos__photo {
+      max-height: 250px;
+      max-width: 80%;
+      min-width: 190px;
+      margin: 2.5% auto 2.5% auto;
+    }
+  }
+}
