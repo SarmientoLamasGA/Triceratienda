@@ -153,6 +153,9 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__button {

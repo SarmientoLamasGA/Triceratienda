@@ -81,6 +81,7 @@ header {
             position: relative;
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             .nav__link {
               .nav__button {
                 list-style: circle;
