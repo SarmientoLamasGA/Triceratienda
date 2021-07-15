@@ -199,8 +199,8 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 .index .principal .presentation {
   color: white;
   font-weight: bold;
-  font-family: "Zeen Lop", cursive;
   font-size: 2.6rem;
+  font-family: "Zeen Loop", cursive;
   font-weight: 800;
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   text-align: center;
