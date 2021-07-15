@@ -84,12 +84,14 @@ header {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            align-items: center;
             .nav__link {
+              width: 100%;
               .nav__button {
                 list-style: circle;
                 color: black;
                 position: relative;
-                /*border-color: rgba(0, 0, 0, 0);*/
+                border-color: rgba(0, 0, 0, 0);
                 background-image: linear-gradient(#a9dfbf, #fcf3cf);
                 margin: calc(1vw + 1%);
                 padding: 2.5%;
@@ -97,6 +99,7 @@ header {
                 font-size: 1.8rem;
                 color: black;
                 text-decoration: none;
+                width: 100%;
               }
               .nav__button--active {
                 list-style: circle;
@@ -105,11 +108,13 @@ header {
                 border: solid;
                 border-color: pink;
                 background-color: plum;
+                margin: calc(1vw + 1%);
                 padding: calc(1vw + 1%);
                 list-style: none;
                 font-size: 1.8rem;
                 color: black;
                 text-decoration: none;
+                width: 100%;
               }
             }
           }

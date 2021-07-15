@@ -158,13 +158,20 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link {
+  width: 100%;
 }
 
 header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__button {
   list-style: circle;
   color: black;
   position: relative;
-  /*border-color: rgba(0, 0, 0, 0);*/
+  border-color: rgba(0, 0, 0, 0);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#a9dfbf), to(#fcf3cf));
   background-image: linear-gradient(#a9dfbf, #fcf3cf);
   margin: calc(1vw + 1%);
@@ -173,6 +180,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   font-size: 1.8rem;
   color: black;
   text-decoration: none;
+  width: 100%;
 }
 
 header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__button--active {
@@ -182,11 +190,13 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   border: solid;
   border-color: pink;
   background-color: plum;
+  margin: calc(1vw + 1%);
   padding: calc(1vw + 1%);
   list-style: none;
   font-size: 1.8rem;
   color: black;
   text-decoration: none;
+  width: 100%;
 }
 
 .index .principal {
