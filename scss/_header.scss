@@ -77,10 +77,13 @@ header {
             text-decoration: none;
             font: bold;
             color: black;
-            margin: 2vw 1vw 2vw 1vw;
+            margin: 0vw 1vw vw 1vw;
+            padding-top: 0;
+            padding-bottom: 0;
             position: relative;
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             .nav__link {
               .nav__button {
                 list-style: circle;
@@ -103,8 +106,7 @@ header {
                 border: solid;
                 border-color: pink;
                 background-color: plum;
-                margin: calc(1vw + 1%);
-                padding: 2.5%;
+                padding: calc(1vw + 1%);
                 list-style: none;
                 font-size: 1.8rem;
                 color: black;
