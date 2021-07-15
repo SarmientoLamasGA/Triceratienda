@@ -89,9 +89,8 @@ header {
                 list-style: circle;
                 color: black;
                 position: relative;
-                border: solid;
-                border-color: plum;
-                background-color: pink;
+                /*border-color: rgba(0, 0, 0, 0);*/
+                background-image: linear-gradient(#a9dfbf, #fcf3cf);
                 margin: calc(1vw + 1%);
                 padding: 2.5%;
                 list-style: none;

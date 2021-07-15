@@ -164,9 +164,9 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   list-style: circle;
   color: black;
   position: relative;
-  border: solid;
-  border-color: plum;
-  background-color: pink;
+  /*border-color: rgba(0, 0, 0, 0);*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a9dfbf), to(#fcf3cf));
+  background-image: linear-gradient(#a9dfbf, #fcf3cf);
   margin: calc(1vw + 1%);
   padding: 2.5%;
   list-style: none;
@@ -418,7 +418,8 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 
 .form {
   background-color: #fadbd8;
-  margin: 2vh;
+  width: 80%;
+  margin: 30px auto auto auto;
   font-size: 1.3rem;
 }
 
