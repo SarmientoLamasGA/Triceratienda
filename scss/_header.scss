@@ -72,6 +72,9 @@ header {
       align-items: center;
       .nav__collapse {
         .nav__list {
+          position: relative;
+          display: flex;
+          justify-content: space-around;
           .nav__item {
             list-style: none;
             text-decoration: none;
@@ -83,17 +86,17 @@ header {
             position: relative;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             .nav__link {
               width: 100%;
+              /*margin: calc(1vw + 1%);*/
               .nav__button {
                 list-style: circle;
                 color: black;
                 position: relative;
                 border-color: rgba(0, 0, 0, 0);
                 background-image: linear-gradient(#a9dfbf, #fcf3cf);
-                margin: calc(1vw + 1%);
                 padding: 2.5%;
                 list-style: none;
                 font-size: 1.8rem;
@@ -107,8 +110,7 @@ header {
                 position: relative;
                 border: solid;
                 border-color: pink;
-                background-color: plum;
-                margin: calc(1vw + 1%);
+                background-color: rgb(247, 228, 228);
                 padding: calc(1vw + 1%);
                 list-style: none;
                 font-size: 1.8rem;
