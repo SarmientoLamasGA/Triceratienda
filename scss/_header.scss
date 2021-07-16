@@ -86,11 +86,9 @@ header {
             position: relative;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
             align-items: center;
             .nav__link {
               width: 100%;
-              /*margin: calc(1vw + 1%);*/
               .nav__button {
                 list-style: circle;
                 color: black;
