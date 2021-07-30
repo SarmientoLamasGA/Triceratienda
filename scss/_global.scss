@@ -39,12 +39,18 @@ body {
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 62.5%;
+    font-size: 50.5%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   html {
     font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 85.5%;
   }
 }
