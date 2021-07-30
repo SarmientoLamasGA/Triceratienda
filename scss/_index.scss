@@ -20,13 +20,10 @@
     }
   }
 }
-.container-fluid {
-  padding: 0;
-  .carousel-item {
-    height: 100%;
-    .img {
-      height: 100%;
-    }
+
+.carousel__button {
+  .carousel__arrow {
+    height: 30%;
   }
 }
 
@@ -40,7 +37,7 @@
       background-color: white;
       .info__pagos-img-container {
         .info__pagos-img {
-          width: 250px;
+          width: 30rem;
         }
       }
     }

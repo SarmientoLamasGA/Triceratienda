@@ -224,16 +224,8 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   padding: 20% 0 20% 0;
 }
 
-.container-fluid {
-  padding: 0;
-}
-
-.container-fluid .carousel-item {
-  height: 100%;
-}
-
-.container-fluid .carousel-item .img {
-  height: 100%;
+.carousel__button .carousel__arrow {
+  height: 30%;
 }
 
 .info {
@@ -249,7 +241,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .info .info__pagos .info__pagos-container .info__pagos-img-container .info__pagos-img {
-  width: 250px;
+  width: 30rem;
 }
 
 .info .info__horarios .info__nuestros-horarios {
