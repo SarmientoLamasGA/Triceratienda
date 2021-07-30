@@ -33,7 +33,7 @@ header nav .nav__logo-container {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   header nav .nav__logo-container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -421,14 +421,33 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   letter-spacing: 3px;
   word-spacing: 3px;
   text-align: justify;
-  margin: 0 30px 0 30px;
+  margin: 0 2.5% 0 2.5%;
 }
 
 .nos .nos__top .nos__photo {
-  max-height: 250px;
-  max-width: 80%;
-  min-width: 190px;
+  /*max-height: 250px;
+      max-width: 80%;
+      min-width: 190px;*/
   margin: 2.5% auto 2.5% auto;
+  width: 40%;
+  height: 40%;
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 450px;
+  max-height: 450px;
+  aspect-ratio: 1/1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nos .nos__bottom {
+  margin: 5% 0;
+}
+
+.nos .nos__bottom .nos__map {
+  height: 50vh;
+  width: 97.5%;
 }
 
 .form {
@@ -481,13 +500,16 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 0;
   padding: 2vh;
   padding-bottom: 0;
@@ -501,6 +523,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
       -ms-grid-row-align: center;
       align-self: center;
   font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .footer .footer__logo-container {
@@ -518,7 +541,9 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .footer .footer__logos {
-  margin: 0.25rem 0.5rem 0.25rem 0.5rem;
+  margin: 0.25rem 1rem 0.25rem 1rem;
+  height: 6rem;
+  width: 6rem;
 }
 
 /*format*/

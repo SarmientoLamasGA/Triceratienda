@@ -16,7 +16,7 @@ header {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 991px) {
         justify-content: center;
       }
       .nav__logo {
