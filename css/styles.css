@@ -340,7 +340,9 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .organizador-pili .video-pili {
-  width: 80%;
+  width: 30%;
+  min-width: 150px;
+  /*max-height: ;*/
 }
 
 .product-box {
