@@ -232,6 +232,11 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   margin-top: 5%;
 }
 
+.info .info__pagos {
+  width: 90%;
+  margin: auto;
+}
+
 .info .info__pagos .info__metodos {
   font-weight: 700;
 }
