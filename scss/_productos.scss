@@ -22,8 +22,11 @@
     align-self: center;
   }
   .product-card__img--marker {
+    height: 30%;
+    width: 30%;
+    min-width: 250px;
+    max-width: 550px;
     margin-top: 2%;
-    max-width: 250px;
     border-radius: 30px;
     border: 2px solid plum;
   }
