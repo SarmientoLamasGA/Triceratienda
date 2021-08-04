@@ -25,7 +25,6 @@ body {
   letter-spacing: 10px;
   margin: 2vh;
   text-transform: uppercase;
-  text-shadow: whitesmoke;
   text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
 }
 
@@ -230,9 +229,13 @@ header nav .nav__navbar {
           flex-direction: column;
   -ms-flex-line-pack: end;
       align-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header nav .nav__navbar .nav__collapse {
+  margin: 0 2.5% 0 2.5%;
 }
 
 header nav .nav__navbar .nav__collapse .nav__list {
@@ -340,7 +343,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .info .info__pagos .info__pagos-container .info__pagos-img-container .info__pagos-img {
-  width: 40rem;
+  width: 30rem;
 }
 
 .info .info__horarios .info__nuestros-horarios {
@@ -367,7 +370,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .product-card .product-card__img {
-  border-radius: 100px;
+  border-radius: 80px;
   border: pink;
   border-style: solid;
 }
@@ -386,7 +389,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 .product-card .product-card__img--marker {
   height: 30%;
   width: 30%;
-  min-width: 250px;
+  min-width: 200px;
   max-width: 550px;
   margin-top: 2%;
   border-radius: 30px;
@@ -575,8 +578,8 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .form .form__check {
-  width: 90%;
-  margin: 1% 5% 1% 5%;
+  width: 75%;
+  margin: 1% auto 1% auto;
   text-align: center;
 }
 
@@ -585,8 +588,8 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .form .form__text-area {
-  width: 90%;
-  margin: 0 5% 0 5%;
+  width: 75%;
+  margin: 1% 12.5% 0 12.5%;
 }
 
 .form .form__button {
