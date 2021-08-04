@@ -3,9 +3,10 @@
   width: 80%;
   margin: 30px auto auto auto;
   font-size: 1.3rem;
-  .form__titles {
+  .form__title {
+    font-size: 4rem;
     text-align: center;
-    padding: 2%;
+    padding: 1%;
   }
   .form__personal {
     width: 90%;
@@ -21,13 +22,13 @@
   }
   .form__button {
     margin: 2% 2.5% 2% 5%;
-    padding: 0.3%;
+    padding: 0.5%;
     background: linear-gradient(#45d627, #7bdb68);
     border-style: none;
   }
   .form__button--delete {
     margin: 2% 2.5% 2% 5%;
-    padding: 0.3%;
+    padding: 0.5%;
     background: linear-gradient(#d62727, #db6868);
     border-style: none;
   }

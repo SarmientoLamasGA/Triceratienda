@@ -246,7 +246,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .info .info__pagos .info__pagos-container .info__pagos-img-container .info__pagos-img {
-  width: 30rem;
+  width: 40rem;
 }
 
 .info .info__horarios .info__nuestros-horarios {
@@ -459,9 +459,10 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   font-size: 1.3rem;
 }
 
-.form .form__titles {
+.form .form__title {
+  font-size: 4rem;
   text-align: center;
-  padding: 2%;
+  padding: 1%;
 }
 
 .form .form__personal {
@@ -481,7 +482,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 
 .form .form__button {
   margin: 2% 2.5% 2% 5%;
-  padding: 0.3%;
+  padding: 0.5%;
   background: -webkit-gradient(linear, left top, left bottom, from(#45d627), to(#7bdb68));
   background: linear-gradient(#45d627, #7bdb68);
   border-style: none;
@@ -489,7 +490,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 
 .form .form__button--delete {
   margin: 2% 2.5% 2% 5%;
-  padding: 0.3%;
+  padding: 0.5%;
   background: -webkit-gradient(linear, left top, left bottom, from(#d62727), to(#db6868));
   background: linear-gradient(#d62727, #db6868);
   border-style: none;
@@ -524,8 +525,9 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin: 1rem;
+  padding: 2rem;
 }
 
 .footer .footer__logo-container {
