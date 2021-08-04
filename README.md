@@ -2,7 +2,7 @@
 
 Proyecto realizado para el curso de Desarrollo Web de Coderhouse. Diseño de Gabriel Alejandro Sarmiento Lamas. El mismo corresponde a un sitio publicitario de un e-commerce.
 
-Herramientas utilizadsa:
+Herramientas utilizadas:
 - HTML
 - CSS
 - Flexbox
