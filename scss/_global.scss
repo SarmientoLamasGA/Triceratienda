@@ -8,9 +8,14 @@ html {
   font-size: 55%;
 }
 
+/*variables */
+$color-verde: #a9dfbf;
+$color-crema: #fcf3cf;
+$color-salmon: #ffd6ba;
+
 /*body global*/
 body {
-  background-color: #fcf3cf;
+  background-color: $color-crema;
 }
 .titles {
   color: rgb(177, 34, 177);
