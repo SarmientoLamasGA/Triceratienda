@@ -1,12 +1,12 @@
 header {
-  background-color: #a9dfbf;
+  background-color: $color-verde;
   width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
 
   nav {
-    background-image: linear-gradient(#a9dfbf, #fcf3cf);
+    background-image: linear-gradient($color-verde, $color-crema);
     padding: 1.5vh;
     margin-left: 0;
     width: 100%;
@@ -55,7 +55,7 @@ header {
     }
 
     .nav__burger {
-      background-color: #a9dfbf;
+      background-color: $color-verde;
       width: 30px;
       height: 30px;
       span {

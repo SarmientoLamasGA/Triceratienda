@@ -1,3 +1,97 @@
+/*format*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 55%;
+}
+
+/*variables */
+/*body global*/
+body {
+  background-color: #fcf3cf;
+}
+
+.titles {
+  color: #b122b1;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: calc(1.4rem + 1.5vw);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 2vh;
+  text-transform: uppercase;
+  text-shadow: whitesmoke;
+  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+}
+
+.subtitles {
+  color: #b122b1;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: calc(1.54rem + 1.2vw);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 2vh;
+  text-shadow: whitesmoke;
+  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/*404*/
+.container-404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.container-404 div h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.container-404 div p {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.container-404 a .img-404 {
+  width: 50rem;
+  margin-bottom: 15rem;
+}
+
 header {
   background-color: #a9dfbf;
   width: 100%;
@@ -340,7 +434,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fad1ae;
+  background-color: #ffd6ba;
 }
 
 .organizador-pili .subtitulo-pili {
@@ -496,7 +590,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .form .form__button {
-  margin: 2% 2.5% 2% 5%;
+  margin: 2% 5% 2% 5%;
   padding: 0.5%;
   background: -webkit-gradient(linear, left top, left bottom, from(#45d627), to(#7bdb68));
   background: linear-gradient(#45d627, #7bdb68);
@@ -504,7 +598,7 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 }
 
 .form .form__button--delete {
-  margin: 2% 2.5% 2% 5%;
+  margin: 2% 5% 2% 5%;
   padding: 0.5%;
   background: -webkit-gradient(linear, left top, left bottom, from(#d62727), to(#db6868));
   background: linear-gradient(#d62727, #db6868);
@@ -563,98 +657,5 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
   margin: 0.25rem 1rem 0.25rem 1rem;
   height: 6rem;
   width: 6rem;
-}
-
-/*format*/
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html {
-  font-size: 55%;
-}
-
-/*body global*/
-body {
-  background-color: #fcf3cf;
-}
-
-.titles {
-  color: #b122b1;
-  font-family: "Hachi Maru Pop", cursive;
-  font-size: calc(1.4rem + 1.5vw);
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 10px;
-  margin: 2vh;
-  text-transform: uppercase;
-  text-shadow: whitesmoke;
-  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
-}
-
-.subtitles {
-  color: #b122b1;
-  font-family: "Hachi Maru Pop", cursive;
-  font-size: calc(1.54rem + 1.2vw);
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 10px;
-  margin: 2vh;
-  text-shadow: whitesmoke;
-  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
-}
-
-@media only screen and (min-width: 768px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media only screen and (min-width: 1201px) {
-  html {
-    font-size: 70%;
-  }
-}
-
-/*404*/
-.container-404 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  margin: auto;
-}
-
-.container-404 div h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin-top: 2rem;
-}
-
-.container-404 div p {
-  text-align: center;
-  font-size: 1.6rem;
-  margin-top: 2rem;
-}
-
-.container-404 a .img-404 {
-  width: 50rem;
-  margin-bottom: 15rem;
 }
 /*# sourceMappingURL=styles.css.map */
