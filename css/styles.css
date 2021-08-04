@@ -25,6 +25,7 @@ header nav {
 
 header nav .nav__logo-container {
   width: 100%;
+  margin: 0 2.5% 0 2.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +43,6 @@ header nav .nav__logo-container {
 }
 
 header nav .nav__logo-container .nav__logo {
-  margin: 0 2.5% 0 2.5%;
   min-width: 75px;
   min-height: 75px;
   max-height: 150px;
@@ -468,11 +468,26 @@ header nav .nav__navbar .nav__collapse .nav__list .nav__item .nav__link .nav__bu
 .form .form__personal {
   width: 90%;
   margin: auto;
+  text-align: center;
+}
+
+.form .form__personal label {
+  margin: 1%;
+}
+
+.form .form__personal .form-control {
+  width: 75%;
+  margin: auto;
 }
 
 .form .form__check {
   width: 90%;
-  margin: 0 5% 0 5%;
+  margin: 1% 5% 1% 5%;
+  text-align: center;
+}
+
+.form .form__check p {
+  text-align: center;
 }
 
 .form .form__text-area {
@@ -608,5 +623,38 @@ body {
   html {
     font-size: 70%;
   }
+}
+
+/*404*/
+.container-404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.container-404 div h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.container-404 div p {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.container-404 a .img-404 {
+  width: 50rem;
+  margin-bottom: 15rem;
 }
 /*# sourceMappingURL=styles.css.map */
